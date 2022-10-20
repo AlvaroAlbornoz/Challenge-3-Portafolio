@@ -42,7 +42,7 @@
             <div class="container_presentacion">
                 <div class="hero">
                     <div class="resumen-Presentacion">
-                        <p> Hola, mi nombre es Fulana de Tal y construyo paginas web</p>
+                        <p> Hola, soy Alvaro y construyo paginas web</p>
                     </div>
                     <div class="resumen-antecedentes">
                         <p>
@@ -51,20 +51,20 @@
                     </div>
                     <div class="resumen-enlaces">
                         <div class="enlace">
-                        <a class="link-github" href="#">Github</a>
-                        <img src="img/flecha.svg" alt="">
+                            <a class="resumen__enlace" href="#">Github</a>
+                            <img src="img/flecha.svg" alt="">
                         </div>
                         <div class="enlace">
-                        <a class="link-linkedin" href="https://www.linkedin.com/in/alvaro-albornoz-dba">Linkedin</a>
-                        <img src="img/flecha.svg" alt="">
+                            <a class="resumen__enlace" href="https://www.linkedin.com/in/alvaro-albornoz-dba">Linkedin</a>
+                            <img src="img/flecha.svg" alt="">
                         </div>
                         <div class="enlace">
-                        <a class="link-instagram" href="#">Instagram</a>
-                        <img src="img/flecha.svg" alt="">
+                            <a class="resumen__enlace" href="#">Instagram</a>
+                            <img src="img/flecha.svg" alt="">
                         </div>
-                        <div class="enlace">
-                        <a class="link-curriculum" href="#">Curriculum</a>
-                        <img src="img/flecha.svg" alt="">
+                            <div class="enlace">
+                            <a class="resumen__enlace" href="#">Curriculum</a>
+                            <img src="img/flecha.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -74,8 +74,8 @@
 
                 </div>
             </div>
-            <section id="Sobremi">
-                <p>Sobre Mi</p>
+            <section id="Sobremi" class="sobre-mi">
+                <p class="titulo-sobremi">Sobre Mi</p>
                 <p class="detalle-sobremi">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. 
 
@@ -83,34 +83,103 @@
                 </p>
                 <img src="img/firma.svg" alt="">
             </section>
+<!-- Sección de Skills -->
+<section class="skills" id="skills">
+    <h2 class="skills__title">Skills</h2>
+        <div class="skills__line">
+            <div class="skills__box">
+                <ul>
+                    <li class="skills__img"><img src="img\htlm.png"></li>
+                    <li class="skills__name"> HTML 5</li>
+                </ul>
+            </div>
 
-            <section id="skills">
-                <div class="skills">
-                    <h2>Skills</h2>
-                    <div class="logos-skills">
-                        <img src="img/Skill-html5.svg" alt="">
-                        <img src="img/Skill-javascript.svg" alt="">
-                        <img src="img/Skill-php.svg" alt="">
-                        <img src="img/Skill-css.svg" alt="">
-                    </div>
-                </div>
-            </section>
-            <section id="hobbies">
-                <div class="hobbies">
-                    <h2>Hobbies</h2>
-                    <div class="logos-hobbies">
-                        <img src="img/hobbies-fotos.svg" alt="">
-                        <img src="img/hobbies-oirmusica.svg" alt="">
-                        <img src="img/hobbies-verseries.svg" alt="">
+            <div class="skills__box">
+                <ul>
+                    <li class="skills__img"> <img src="img\js_icon.png" alt=""></li>
+                    <li class="skills__name">Javascript</li>
+                </ul>
+            </div>
+
+            <div class="skills__box">
+                <ul>
+                    <li class="skills__img"> <img src="img\php_icon.png" alt=""></li>
+                    <li class="skills__name">PHP</li>
+                </ul>
+            </div>            
+
+            <div class="skills__box">
+                <ul>
+                    <li class="skills__img"> <img src="img\css_icon.png" alt=""> </li>
+                    <li class="skills__name">CSS</li>
+                </ul>
+            </div>
+
+            <div class="skills__box">
+                <ul>
+                    <li class="skills__img"> <img src="img\sql.png" alt=""> </li>
+                    <li class="skills__name">Sql</li>
+                </ul>
+            </div>
+    </div>
+</section>
+<section class="hobbies" id="hobbies">
+    <h2 class="hobbies__title">Hobbies</h2>
+        <div class="hobbies__line">
+            
+
+            <div class="hobbies__box">
+                <ul>
+                    <li class="hobbies__img"> <img src="img\headphones_icon.png" alt=""></li>
+                    <li class="hobbies__name">Oir música</li>
+                </ul>
+            </div>
+
+            <div class="hobbies__box">
+                <ul>
+                    <li class="hobbies__img"><img src="img\tv_icon.png" alt=""></li>
+                    <li class="hobbies__name">Ver séries</li>
+                </ul>
+            </div>
+
+            <div class="hobbies__box">
+                <ul>
+                    <li class="hobbies__img"> <img src="img/taichi.png" alt=""> </li>
+                    <li class="hobbies__name">Tai Chi</li>
+                </ul>
+            </div>
+
+            <div class="hobbies__box">
+                <ul>
+                    <li class="hobbies__img"> <img src="img\camera_icon.png" alt=""> </li>
+                    <li class="hobbies__name">Tomar fotos</li>
+                </ul>
+            </div>
+    </div>
+</section>
+            <section id="formacionAcademica" class="formacion-academica">
+                <h2>Formación Académica</h2>
+                <div class="imagenes-formacion">
+                    <ul class="academic__courses__list">
+                        <!-- Pon el logotipo de la institución de formación -->
+                        <li class="academic__courses__item__img"><img src="img/descarga.png" alt=""></li>
+                        <li class="academic__courses__item__title"><h4>Licenciatura en Informática y computación</h4></li>
+                        <li class="academic__courses__item__subtitle"><p>USACH - Chile</p></li>
+                    </ul>
+                    <ul class="academic__courses__list">
+                        <!-- Pon el logotipo de la institución de formación -->
+                        <li class="academic__courses__item__img"><img src="img/logo-fing.png" alt=""></li>
+                        <li class="academic__courses__item__title"><h4>Ingeniería en Informática</h4></li>
+                        <li class="academic__courses__item__subtitle"><p>USACH - Chile</p></li>
+                    </ul>
+                    <ul class="academic__courses__list">
                         
-                    </div>
+                        <li class="academic__courses__item__img"><img src="img/formaciondiseño.svg" alt=""></li>
+                        <li class="academic__courses__item__title"><h4>Análisis de datos</h4></li>
+                        <li class="academic__courses__item__subtitle"><p>2018 - UFPR</p></li>
+                    </ul>
+                    
                 </div>
-            </section>
-            <section id="formacionAcademica">
-                <h2>Formacion Academica</h2>
-                    <img src="img/Analisisdedatos.svg" alt="">
-                    <img src="img/formaciondiseño.svg" alt="">
-                    <img src="img/posgradodiseño.svg" alt="">
             </section>
 
             <section id="experienciaProfesional">
@@ -119,27 +188,24 @@
                         <img src="img/codigosecreto.svg" alt="">
                         <p class="tituloencriptador">Encriptador de texto</p>
                         <p class="subtitulo">Challenge Oracle</p>
-                        <div class="botones">
-                            <button class="encrip1"></button>
-                            <button class="encrip2"></button>
+                        <div class="experience__description">
+                            <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                                <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button class="experiencia__botao--repo">Repositório</button></a></span>
+                                <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
                         </div>
                     </div>
                     <div class="Experiencia2">
                         <img src="img/ahorcado.svg" alt="">
                         <p class="tituloencriptador">Juego Creado con HTML CSS y javascript</p>
                         <p class="subtitulo">Challenge Oracle</p>
-                        <div class="botones">
-                            <button class="encrip1"></button>
-                            <button class="encrip2"></button>
+                        <div class="experience__description">
+                            <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                                <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button class="experiencia__botao--repo">Repositório</button></a></span>
+                                <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
                         </div>
                     </div>
                 </section>
- <!--            <section class="contacto">
-                <img src="img/contacto.svg" alt="">
-
-            </section> -->
-            
-
+ 
 
         </div>
         <section class="formcontato" id="contacto">
@@ -156,7 +222,21 @@
                         <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
                         <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto">
                         <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
-                        <button type="submit" class="formcontato__botao">Enviar mensaje</button>
+                        
+                        
+                        <button>
+                            <div class="svg-wrapper-1">
+                              <div class="svg-wrapper">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                  <path fill="none" d="M0 0h24v24H0z"></path>
+                                  <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+                                </svg>
+                              </div>
+                            </div>
+                            <span>Enviar</span>
+                          </button>
+                    
+                        
                     </form>
                 </div>
             </div>
@@ -170,5 +250,6 @@
             </div>
         </section>
     </footer>
+    <script src="js/validacion.js"></script>
 </body>
 </html>

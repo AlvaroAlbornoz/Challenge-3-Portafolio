@@ -1,11 +1,13 @@
 .app{
     font-family: Raleway;
-    margin-left: 8%;
+    padding-left: 8%;
+    background: #F5F5F5;
 }
 .container{
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
+    padding: 8px;
 }
 .logo{
  
@@ -18,6 +20,9 @@
     color: #464646;
 }
 
+.headerPrincipal-nav{
+    display: flex;
+}
 .headerPrincipal-nav-link{
   
     font-size: 16px;
@@ -25,9 +30,20 @@
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
-    margin-right: 32px;
+    padding:5px 5px;
     color: #464646;
 }
+
+.headerPrincipal-nav-link:hover{
+    color: white;
+    background: rgb(108, 170, 242);
+    transition: all 400ms ease-in-out 0s;
+    border-radius: 10px;
+    
+    padding:5px 5px;
+    
+}
+
 
 .headerPrincipal-nav a:last-child{
     font-weight: 700;
@@ -56,7 +72,181 @@
 
 .resumen-enlaces{
     display: flex;
+    padding: 5px 5px;
+    /* justify-content: space-evenly; */
 }
 .enlace{
-    margin-right: 25px;
+    /* margin-right: 25px; */
+    margin: 0 8px;
 }
+.resumen__enlace{
+    padding: 5px 5px;
+}
+.resumen__enlace:hover{
+    color: white;
+    background: rgb(108, 170, 242);
+    transition: all 400ms ease-in-out 0s;
+    border-radius: 10px;
+    padding: 5px 5px;
+    /* margin-right: 10px; */
+}
+.sobre-mi{
+    background: #EAF2FD;
+    height: 383px;
+    padding-left: 100px;
+
+}
+.titulo-sobremi{
+    padding-top: 64px;
+    font-size: 32px;
+    color: #464646;
+    
+}
+.detalle-sobremi{
+    width: 751px;
+    height: 133px;
+    color: #464646;
+    font-size: 16px;
+    
+}
+.logos-skills, .logos-hobbies{
+    display: flex;
+    justify-content: flex-start;
+}
+.skills h2, .hobbies h2{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 32px;
+}
+
+.skills__line, .hobbies__line{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 0 0 0;
+    gap: 32px;
+}
+.skills__box, .hobbies__box {
+    width: 176px;
+    height: 174px;
+    display: flex;
+    background: #FFFFFF;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border-radius: 7px;
+    padding: 16px;
+    gap: 8px;
+    box-shadow: 10px 5px 5px rgb(195, 194, 194);
+}
+
+.skills__box ul, .hobbies__box ul{
+    padding: 0 0 13% 25%;
+}
+
+
+.skills img, .hobbies img{
+     width: 32px;
+     color: #2A7AE4;
+}
+.skills__name, .hobbies__name{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 5px;
+}
+/*  .logos-skills, .logos-hobbies{
+    padding-right: 152px;
+    padding-top: 20px;
+} 
+
+.logos-skills img, .logos-hobbies img{
+    padding-right: 16px;
+} */
+
+.formacion-academica{
+    background: #EAF2FD;
+    margin-top: 50px;
+}
+
+.formacion-academica h2{
+    text-align: center;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.formacion-academica img{
+    width: 368px;
+height: 286px;
+}
+
+.imagenes-formacion{
+    display: flex;
+    justify-content: space-around;
+}
+.academic__courses__list img{
+    width: 337px;
+    height: 70px;
+}
+
+.experience__description{
+
+    display: flex;
+}
+.experiencia__botao--repo, .experience__botao--demo{
+    font-size: 16px;
+}
+/* From uiverse.io by @adamgiebl */
+button {
+    font-family: inherit;
+    font-size: 16px;
+    background: royalblue;
+    color: white;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+   }
+   
+   button span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+   }
+   
+   button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+   }
+   
+   button:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+   }
+   
+   button:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+   }
+   
+   button:hover span {
+    transform: translateX(5em);
+   }
+   
+   button:active {
+    transform: scale(0.95);
+   }
+   
+   @keyframes fly-1 {
+    from {
+     transform: translateY(0.1em);
+    }
+   
+    to {
+     transform: translateY(-0.1em);
+    }
+   }
+   
+   
