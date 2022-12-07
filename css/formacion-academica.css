@@ -1,0 +1,23 @@
+.academic__courses__list img {
+    width: 20vw;
+    height: 7vh;
+}
+
+.academic__courses__item__img {
+    margin-left: 15px;
+}
+
+.experience__description {
+    display: flex;
+}
+
+.formacion-academica {
+    background: var(--secondary-color);
+    margin-top: 50px;
+}
+
+.formacion-academica h2 {
+    text-align: center;
+    padding: 20px;
+    padding-top: 40px;
+}

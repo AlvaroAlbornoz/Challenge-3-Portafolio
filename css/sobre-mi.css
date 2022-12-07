@@ -1,0 +1,26 @@
+.detalle-sobremi {
+    width: 43rem;
+
+    color: var(--color-texto-secundario);
+    font-size: 1rem;
+
+}
+
+.sobre-mi {
+    background: var(--secondary-color);
+    height: 383px;
+    /* padding-left: 100px; */
+
+}
+
+.sobre-mi p,
+.sobre-mi img {
+    margin-left: 2.5rem;
+}
+
+.titulo-sobremi {
+    padding-top: 64px;
+    font-size: 32px;
+    color: var(--color-texto-secundario);
+
+}

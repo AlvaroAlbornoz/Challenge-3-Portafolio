@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    padding: 1.5rem 2.1rem;
+}
+
+.headerPrincipal-nav {
+    display: flex;
+}
+
+.headerPrincipal-nav-link {
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 5px 5px;
+    color: var(--color-texto-secundario);
+}
+
+.headerPrincipal-nav-link:hover {
+    color: white;
+    background: rgb(108, 170, 242);
+    transition: all 400ms ease-in-out 0s;
+    border-radius: 10px;
+    padding: 5px 5px;
+
+}
+
+.headerPrincipal-nav a:last-child {
+    font-weight: 700;
+}
+
+.logo {
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    color: var(--color-texto-secundario)
+}
+
+.logo-imagen {
+    margin-right: 0.8rem;
+}

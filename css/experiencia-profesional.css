@@ -1,0 +1,19 @@
+.Experiencia-primera,
+.Experiencia-segunda {
+  display: flex;
+  margin: 32px 0px;
+
+}
+
+.Experiencia-segunda {
+  flex-direction: row-reverse;
+}
+
+.experiencia__texto {
+  flex-direction: column;
+  display: flex;
+  align-items: initial;
+  justify-content: center;
+  padding: 0 35px;
+
+}

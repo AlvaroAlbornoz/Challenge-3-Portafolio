@@ -1,0 +1,7 @@
+@import url(_reset.css);
+@import url(_variables.css);
+.app {
+    font-family: var(--font-family-body);
+    /* padding-left: 8%; */
+    background: var(--primary-color);
+}

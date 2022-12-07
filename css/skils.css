@@ -1,0 +1,46 @@
+.logos-skills, .logos-hobbies{
+    display: flex;
+    justify-content: flex-start;
+}
+.skills h2, .hobbies h2, #experienciaProfesional h2, .formacion-academica h2{
+    text-align: center;
+    font-size: 32px;
+    margin: 32px 0;
+    color: var(--color-texto-secundario);
+}
+
+.skills__line, .hobbies__line{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0 0 0;
+    gap: 32px;
+}
+.skills__box, .hobbies__box {
+    width: 176px;
+    height: 174px;
+    display: flex;
+    background: var(--contrast-light-color);
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border-radius: 7px;
+    padding: 16px;
+    gap: 8px;
+    box-shadow: 10px 5px 5px rgb(195, 194, 194);
+}
+
+.skills__box ul, .hobbies__box ul{
+    padding: 0 0 13% 25%;
+}
+
+
+.skills img, .hobbies img{
+     width: 32px;
+     /* color: #2A7AE4; */
+}
+.skills__name, .hobbies__name{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 5px;
+}
