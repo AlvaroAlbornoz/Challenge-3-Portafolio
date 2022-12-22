@@ -7,6 +7,11 @@
 
 .headerPrincipal-nav {
     display: flex;
+    gap: 8px;    
+}
+
+.headerPrincipal-nav a:last-child {
+    font-weight: 700;    
 }
 
 .headerPrincipal-nav-link {
@@ -16,25 +21,22 @@
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
-    padding: 5px 5px;
+    margin-right: 15px;
     color: var(--color-texto-secundario);
 }
 
-.headerPrincipal-nav-link:hover {
+.headerPrincipal-nav-link:hover, .headerPrincipal-nav-link--contacto:hover{
     color: white;
     background: rgb(108, 170, 242);
     transition: all 400ms ease-in-out 0s;
     border-radius: 10px;
-    padding: 5px 5px;
-
+    padding: 1px 15px;
+font-size: 15px;
 }
 
-.headerPrincipal-nav a:last-child {
-    font-weight: 700;
-}
+
 
 .logo {
-
     font-size: 16px;
     font-weight: 700;
     line-height: 19px;
@@ -46,4 +48,26 @@
 
 .logo-imagen {
     margin-right: 0.8rem;
+}
+/* celular */
+@media screen and (min-width: 0){
+    .headerPrincipal-nav-link {     
+        display:none;
+    }
+}
+/* ipad */
+@media screen and (min-width: 768px){
+    .headerPrincipal-nav-link {       
+        display:none;
+    }    
+}
+/* pc */
+@media screen and (min-width: 1024px){
+    .headerPrincipal-nav-link {      
+        display:flex; 
+         
+    }   
+    .headerPrincipal-nav-link--contacto{
+        margin-left: 10px;
+    }   
 }

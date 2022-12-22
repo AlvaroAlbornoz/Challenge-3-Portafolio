@@ -17,3 +17,25 @@
   padding: 0 35px;
 
 }
+
+#experienciaProfesional img {
+  width: 55vw;
+}
+.experience__botao--demo {
+  font-family: inherit;
+  font-size: 16px;
+  background: var(--boton-color-izq);
+  color: var(--letra-boton-color-izq);
+}
+
+.experiencia__botao--repo {
+  font-family: inherit;
+  font-size: 16px;
+  background: var(--boton-color-der);
+  color: var(--letra-boton-color-der);
+  border: 1px solid #2A7AE4;
+}
+
+.experience__repo {
+  margin-right: 0.5rem;
+}

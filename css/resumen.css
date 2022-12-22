@@ -1,0 +1,43 @@
+.hero {
+
+    width: 63vw;
+}
+
+.resumen-antecedentes p {
+    font-size: var(--font-size-resumen-antecedentes);
+}
+
+
+.resumen-enlaces {
+    display: flex;
+    padding: 5px 5px;
+
+}
+
+.resumen__enlace {
+    padding: 5px 5px;
+    color: var(--color-texto-secundario);
+}
+
+.resumen__enlace:hover {
+    color: white;
+    background: rgb(108, 170, 242);
+    transition: all 400ms ease-in-out 0s;
+    border-radius: 10px;
+    padding: 5px 5px;
+    /* margin-right: 10px; */
+}
+
+
+
+.resumen-Presentacion {
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--font-size-resumen);
+    line-height: 61px;
+
+    /* Preto/100% */
+
+    color: var(--color-texto-secundario);
+
+}
