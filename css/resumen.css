@@ -1,7 +1,4 @@
-.hero {
 
-    width: 63vw;
-}
 
 .resumen-antecedentes p {
     font-size: var(--font-size-resumen-antecedentes);
@@ -40,4 +37,23 @@
 
     color: var(--color-texto-secundario);
 
+}
+
+/* celular */
+@media screen and (min-width: 0){
+    
+ 
+}
+
+
+/* ipad */
+@media screen and (min-width: 768px){
+   
+}
+/* pc */
+@media screen and (min-width: 1024px){
+    .hero {
+
+        width: 63vw;
+    }
 }

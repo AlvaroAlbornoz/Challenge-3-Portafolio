@@ -39,3 +39,17 @@
 .experience__repo {
   margin-right: 0.5rem;
 }
+/* celular */
+@media screen and (min-width: 0){
+
+}
+
+
+/* ipad */
+@media screen and (min-width: 768px){
+   
+}
+/* pc */
+@media screen and (min-width: 1024px){
+ 
+}

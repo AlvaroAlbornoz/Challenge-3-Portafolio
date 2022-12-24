@@ -159,3 +159,22 @@ button:active {
         transform: translateY(-0.1em);
     }
 }
+
+@media screen and (min-width: 0){
+    .formcontato__img{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .formcontato__img{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .formcontato__img{
+        display: block;
+    }
+}
+

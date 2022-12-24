@@ -26,7 +26,10 @@
 }
 
 @media screen and (min-width: 0){
-    
+    .detalle-sobremi {
+        width: 100%;
+ 
+    }
 }
 
 @media screen and (min-width: 768px){

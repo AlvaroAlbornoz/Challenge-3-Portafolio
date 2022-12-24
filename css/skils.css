@@ -16,8 +16,7 @@
     gap: 32px;
 }
 .skills__box, .hobbies__box {
-    width: 176px;
-    height: 174px;
+   
     display: flex;
     background: var(--contrast-light-color);
     flex-direction: column;
@@ -43,4 +42,31 @@
     font-size: 16px;
     line-height: 19px;
     padding-top: 5px;
+}
+
+/* celular */
+@media screen and (min-width: 0){
+
+    .skills__line, .hobbies__line{
+        flex-wrap: wrap;
+    }
+
+    .skills__box, .hobbies__box {
+        width: 9rem;
+        height: 9rem;
+    }
+ 
+}
+
+
+/* ipad */
+@media screen and (min-width: 768px){
+ 
+}
+/* pc */
+@media screen and (min-width: 1024px){
+    .skills__box, .hobbies__box {
+        width: 176px;
+        height: 174px;
+    }
 }

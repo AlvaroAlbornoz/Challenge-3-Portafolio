@@ -51,10 +51,16 @@ font-size: 15px;
 }
 /* celular */
 @media screen and (min-width: 0){
+    
     .headerPrincipal-nav-link {     
         display:none;
     }
+    .headerPrincipal-nav-link--contacto{
+        font-size: 14px;
+    }
 }
+
+
 /* ipad */
 @media screen and (min-width: 768px){
     .headerPrincipal-nav-link {       
@@ -69,5 +75,6 @@ font-size: 15px;
     }   
     .headerPrincipal-nav-link--contacto{
         margin-left: 10px;
+        font-size: 16px;
     }   
 }
