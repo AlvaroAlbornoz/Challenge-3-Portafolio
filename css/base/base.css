@@ -1,7 +1,25 @@
 @import url(_reset.css);
 @import url(_variables.css);
+
 .app {
     font-family: var(--font-family-body);
-    
+
     background: var(--primary-color);
+}
+
+@media (min-width: 800px) {
+    .container-registry {
+        padding-right: 2.5rem;
+        padding-left: 2.5rem;
+
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-registry {
+        
+        padding-left: calc((100vw - 900px) / 2);
+        padding-right: calc((100vw - 900px) / 2);
+       
+    }
 }

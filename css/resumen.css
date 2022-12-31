@@ -1,8 +1,6 @@
 
 
-.resumen-antecedentes p {
-    font-size: var(--font-size-resumen-antecedentes);
-}
+
 
 
 .resumen-enlaces {
@@ -11,10 +9,7 @@
 
 }
 
-.resumen__enlace {
-    padding: 5px 5px;
-    color: var(--color-texto-secundario);
-}
+
 
 .resumen__enlace:hover {
     color: white;
@@ -27,28 +22,58 @@
 
 
 
-.resumen-Presentacion {
-    font-style: normal;
-    font-weight: 700;
-    font-size: var(--font-size-resumen);
-    line-height: 61px;
 
-    /* Preto/100% */
-
-    color: var(--color-texto-secundario);
-
-}
 
 /* celular */
 @media screen and (min-width: 0){
+    .resumen-Presentacion {
+       font-size: 22px;
+        line-height: normal;
     
+        /* Preto/100% */
+    
+        color: var(--color-texto-secundario);
+        font-weight: 700;
+    }
+    .resumen__enlace {
+        padding: 5px 1px;
+        color: var(--color-texto-secundario);
+    }
+    .enlace{
+        font-size: 14px;
+        margin-right: 0.5rem;
+    }
+    .resumen-antecedentes p {
+        font-size: 14px;
+    }
  
 }
 
 
 /* ipad */
 @media screen and (min-width: 768px){
-   
+    .resumen-Presentacion {
+        font-style: normal;
+        font-weight: 700;
+        font-size: var(--font-size-resumen);
+        line-height: 61px;
+    
+        /* Preto/100% */
+    
+        color: var(--color-texto-secundario);
+    
+    }
+    .resumen__enlace {
+        padding: 5px 5px;
+        color: var(--color-texto-secundario);
+    }
+    .enlace{
+        font-size: 16px;
+    }
+
+    .resumen-antecedentes p {
+        font-size: var(--font-size-resumen-antecedentes);
+    }
 }
 /* pc */
 @media screen and (min-width: 1024px){

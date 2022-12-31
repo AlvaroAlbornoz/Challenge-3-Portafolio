@@ -9,12 +9,7 @@
     padding-bottom: 3em;
 }
 
-.formcontato__contacto {
-    display: flex;
-    flex-direction: row;
-    height: 593px;
-    padding-left: 2em;
-}
+
 
 .formcontato__form {
     display: flex;
@@ -164,11 +159,22 @@ button:active {
     .formcontato__img{
         display: none;
     }
+    .formcontato__contacto {
+       
+        padding-left: 0;
+    }
 }
 
 @media screen and (min-width: 768px){
     .formcontato__img{
         display: none;
+    }
+
+    .formcontato__contacto {
+        display: flex;
+        flex-direction: row;
+        height: 593px;
+        padding-left: 2em;
     }
 }
 

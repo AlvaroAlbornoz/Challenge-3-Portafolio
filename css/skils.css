@@ -55,6 +55,11 @@
         width: 9rem;
         height: 9rem;
     }
+    .skills h2, .hobbies h2, #experienciaProfesional h2, .formacion-academica h2{
+        
+        font-size: 22px;
+        
+    }
  
 }
 
